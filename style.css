@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none; 
+    font-size: 20px;
+    color: var(--cor2);
+}
+
+:root{
+    --cor-background: #0024c6;
+    --cor2: #fafafa;
+    --cor3: #38f5bc;
+    --cor4: #00a6f3;
+}
+
+body{
+    background-color: var(--cor-background);
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .container-tree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-tree .avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 5px;
+
+    border: 2px solid var(--cor4);
+    border-radius: 50%;
+}
+
+.container-tree .insta-user{
+    margin-top: 15px;
+}
+
+.container-tree .links-container{
+    margin-top: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links-container .link{
+    margin: 10px;
+    width: 325px; 
+    height: 30px;
+    padding: 5px 0px;
+
+    border: 2px solid var(--cor4);
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    transition: ease 0.3s;
+}
+
+.links-container .link:hover{
+    background-color: var(--cor3);
+    color: rgb(17, 17, 17);
+}
+
+.container-tree .socials-container{
+    margin-top: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 29px;
+}
+
+.socials-container .social{
+    transform: scale(0.9);
+    transition: ease 0.3s;
+}
+
+.socials-container .social:hover{
+    transform: scale(1);
+}
