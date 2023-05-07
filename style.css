@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito:wght@300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -7,13 +9,14 @@
     text-decoration: none; 
     font-size: 20px;
     color: var(--cor2);
+    font-family: 'Nunito', sans-serif;
 }
 
 :root{
     --cor-background: #0024c6;
     --cor2: #fafafa;
     --cor3: #38f5bc;
-    --cor4: #00a6f3;
+    --cor4: rgb(0, 97, 243);
 }
 
 body{
@@ -40,8 +43,6 @@ body{
     justify-content: center;
     align-items: center;
 
-    margin-bottom: 5px;
-
     border: 2px solid var(--cor4);
     border-radius: 50%;
 }
@@ -63,7 +64,7 @@ body{
     margin: 10px;
     width: 325px; 
     height: 30px;
-    padding: 5px 0px;
+    padding: 3px 0px;
 
     border: 2px solid var(--cor4);
     border-radius: 5px;
